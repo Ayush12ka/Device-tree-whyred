@@ -193,3 +193,7 @@ persist.vendor.ssr.enable_ramdumps=0
 
 #enable all system restart_level to relative
 persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# ADB props
+ro.secure=1 
+ro.debuggable=0
